@@ -4,10 +4,14 @@ namespace Laba_5_Event_handling
 {
     public partial class Form1 : Form
     {
-        //MyRectangle myRect;
         List<BaseObject> objects = new();
         Player player;
         Marker marker;
+        GreenCircle greenCircle;
+
+        public static Random rnd = new Random();
+
+        private int greenCircleCounter = 0; // ѕеременна€ дл€ хранени€ счЄтчика
         public Form1()
         {
             InitializeComponent();
@@ -25,14 +29,22 @@ namespace Laba_5_Event_handling
                 marker = null;
             };
 
-            marker = new Marker(pbMain.Width / 2 + 50, pbMain.Height / 2 + 50, 0);
-            objects.Add(marker);
+            player.OnGreenCircleOverlap += (g) =>
+            {
+                g.X = rnd.Next() % (pbMain.Width - 50) + 25;
+                g.Y = rnd.Next() % (pbMain.Height - 40) + 20;
+                g.Size = 40;
+                greenCircleCounter++;
+                CounterLable.Text = $"ќчки: {greenCircleCounter}";
+            };
+
+            for (int i = 0; i < 3; i++)
+            {
+                greenCircle = new GreenCircle(rnd.Next() % (pbMain.Width - 50) + 25, rnd.Next() % (pbMain.Height - 40) + 20, 0, 40);
+                objects.Add(greenCircle);
+            } 
+
             objects.Add(player);
-
-            objects.Add(new MyRectangle(50, 50, 0));
-            objects.Add(new MyRectangle(100, 100, 45));
-
-            //myRect = new MyRectangle(100, 100, 45); 
         }
 
         private void pbMain_paint(object sender, PaintEventArgs e)
@@ -75,8 +87,8 @@ namespace Laba_5_Event_handling
                 // который прит€гивает игрока к маркеру
                 // 0.5 просто коэффициент который подобрал на глаз
                 // и который дает естественное ощущение движени€
-                player.vX += dx * 0.5f;
-                player.vY += dy * 0.5f;
+                player.vX += dx /** 0.5f*/;
+                player.vY += dy /** 0.5f*/;//сделал скорость быстрее
 
                 // расчитываем угол поворота игрока 
                 player.Angle = 90 - MathF.Atan2(player.vX, player.vY) * 180 / MathF.PI;
@@ -94,7 +106,16 @@ namespace Laba_5_Event_handling
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //updatePlayer();
+            foreach (var obj in objects.OfType<GreenCircle>())
+            {
+                obj.Size -= 0.3f;
+                if (obj.Size <= 0)
+                {
+                    obj.X = rnd.Next() % (pbMain.Width - 50) + 25;
+                    obj.Y = rnd.Next() % (pbMain.Height - 40) + 20;
+                    obj.Size = 40;
+                }
+            }
 
             pbMain.Invalidate();
         }

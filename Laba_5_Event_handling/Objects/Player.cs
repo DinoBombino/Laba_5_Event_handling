@@ -11,6 +11,8 @@ namespace Laba_5_Event_handling.Objects
     {
         public float vX, vY;
         public Action<Marker> OnMarkerOverlap;
+        public event Action<GreenCircle> OnGreenCircleOverlap;
+
         public Player(float x, float y, float angle) : base(x, y, angle) //konstruktor
         {
         }
@@ -33,6 +35,10 @@ namespace Laba_5_Event_handling.Objects
             if (obj is Marker)
             {
                 OnMarkerOverlap(obj as Marker);
+            }
+            else if (obj is GreenCircle)
+            {
+                OnGreenCircleOverlap(obj as GreenCircle);
             }
         }
     }

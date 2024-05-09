@@ -32,6 +32,7 @@
             pbMain = new PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
             txtLog = new RichTextBox();
+            CounterLable = new Label();
             ((System.ComponentModel.ISupportInitialize)pbMain).BeginInit();
             SuspendLayout();
             // 
@@ -59,17 +60,28 @@
             txtLog.TabIndex = 1;
             txtLog.Text = "";
             // 
+            // CounterLable
+            // 
+            CounterLable.AutoSize = true;
+            CounterLable.Location = new Point(731, 26);
+            CounterLable.Name = "CounterLable";
+            CounterLable.Size = new Size(48, 15);
+            CounterLable.TabIndex = 2;
+            CounterLable.Text = "Очки: 0";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1037, 450);
+            Controls.Add(CounterLable);
             Controls.Add(txtLog);
             Controls.Add(pbMain);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pbMain).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -77,5 +89,6 @@
         private PictureBox pbMain;
         private System.Windows.Forms.Timer timer1;
         private RichTextBox txtLog;
+        private Label CounterLable;
     }
 }

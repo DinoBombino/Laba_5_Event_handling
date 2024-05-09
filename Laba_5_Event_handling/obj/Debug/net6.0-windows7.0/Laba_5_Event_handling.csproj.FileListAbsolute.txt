@@ -1,0 +1,32 @@
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.exe
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.deps.json
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.runtimeconfig.json
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.dll
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.pdb
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.Form1.resources
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.csproj.GenerateResource.cache
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.GeneratedMSBuildEditorConfig.editorconfig
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.AssemblyInfoInputs.cache
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.AssemblyInfo.cs
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.csproj.CoreCompileInputs.cache
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.dll
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\refint\Laba_5_Event_handling.dll
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.pdb
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.genruntimeconfig.cache
+G:\Лабы и т.п\(Бахвалова)C#\Лаба 5\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\ref\Laba_5_Event_handling.dll
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.exe
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.deps.json
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.runtimeconfig.json
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.dll
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\bin\Debug\net6.0-windows7.0\Laba_5_Event_handling.pdb
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.Form1.resources
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.csproj.GenerateResource.cache
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.AssemblyInfoInputs.cache
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.AssemblyInfo.cs
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.csproj.CoreCompileInputs.cache
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.dll
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\refint\Laba_5_Event_handling.dll
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.pdb
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\Laba_5_Event_handling.genruntimeconfig.cache
+C:\Users\Brodyaga\Downloads\TestVS\Laba_5_Event_handling\Laba_5_Event_handling\obj\Debug\net6.0-windows7.0\ref\Laba_5_Event_handling.dll
